@@ -24,10 +24,10 @@ boost_utfw = cc.find_library('boost_unit_test_framework', dirs : boost_lib)
 includes = include_directories(boost_inc)
 
 # Add the sources that comprise your library here.
-lib_sources = ['']
+lib_sources = ['cpp_template_lib.cpp']
 
 # Add the sources that comprise your unit tests here.
-unit_test_sources = ['']
+unit_test_sources = ['cpp_template_test.cpp']
 
 # Add the sources that comprise your executable here.
 exe_sources = ['cpp_template_exe.cpp']
